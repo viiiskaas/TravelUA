@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<link href="main.css" rel="stylesheet"  type="text/css">
+	<title>MyGadget</title>
+</head>
+<body>
+
+<div class="container">
+<div class="header">
+	<a href='#' name="first"><div class="log">
+		<img id="loggo" src="logo.png" width="192px" height="56px">
+	</div></a>
+
+<div class="top-menu">
+	<ul class="menu-content">
+		<li><a href="#ipHone">iPhone</a></li>
+		<li><a href="#iPaD">iPad</a></li>
+		<li><a href="#macBoOk">MacBook</a></li>
+	</ul>
+</div>
+</div>
+<div class="first">
+<div class="first-content">
+	<div class="first-content-txt">
+		<span class="head">MyGadget - Ваш помічник <br>
+			у виборі продукції Apple   </span> <br>
+  
+	  <div class="head-txt"><span >Оберіть свій гаджет за допомогою наших <br> 
+		характеристик та реальних відгуків</span></div>
+			
+	</div>
+	<div class="first-content-button">
+		<a href="#ma1n-menu"><div class="first-content-button-txt">Головне меню</div></a>
+	</div>
+</div>
+<div class="first-content-img"><img id='fist-img1' src="photo_2023-03-04_15-24-11(1).jpg" width="547px"></div>
+</div>
+<div class="first-intermediate-block" id="ma1n-menu">
+	<div class="first-intermediate-block-txt">Оберіть свою категорію гаджетів</div>
+</div>
+<div class="main1-menu" >
+	<a href="#ipHone"><div class=" menu-iphone">
+		<img id="Iphone" src="design_startframe__cffzwjeyro2q_large_2x.jpg" width="200px" height="440px">
+	</div></a>
+	<a href="#macBoOk"><div class=" menu-mac">
+		<img src="wesson-wang-y0_vFxOHayg-unsplash.jpg" width="500px" height="442px">
+</div></a>
+	<a href="#iPaD"><div class=" menu-ipad">
+		<img src="iipad.jpg" width="300px">
+		</div></a>
+</div>
+
+<div class="second-intermediate-block" id="ipHone">
+	<div class="second-intermediate-block-txt">Iphone 14Pro</div>
+</div>
+
+<div class="iphone-present" >
+	<div class="first-img"><img id="Iphone" src="design_startframe__cffzwjeyro2q_large_2x.jpg" width="250px" height="490px"></div>
+	
+	<div class="second-img"><img src="camera_1.jpg" width="300px"></div>
+	<div class="name-phone"><img src="image1.png" width="350px"></div>
+    <div class="thirds-img"><img src="camera_2.jpg" width="350px" ></div>
+	
+	<div class="phone-charact">Інноваційна функція безпеки, що <br>
+		 розроблена задля порятунку життя.<br>
+		  Грандіозна основна камера 48 Мп. І<br>
+		   дисплей, який стає майже вдвічі <br>
+		    яскравішим на сонці.</div>
+	
+	
+</div>
+<div class="thirds-intermediate-block">
+	<div class="first-intermediate-block-txt">Створений бути надійним.</div>
+</div>
+
+<div class="iphone-content">
+	<div class="all protection"><img class="prot" src="img1.png" width="300px"></div>
+	<div class="all display"><img  class="prot" src="img2.png" width="300px"></div>
+	<div class="all on-display"><img  class="prot" src="img3.png" width="250px"></div>
+	<div class="all-info protection-info">Захист від води</div>
+	
+	<div class="all-info display-info">Розміри дисплеїв: 6,1 та 6,7 дюйма</div>
+
+	<div class="all-info on-display-info">Завжди ввімкнений дисплей.</div>
+</div>
+
+
+<div class="iphone-content-second">
+	<div class="bionic-content">
+	<img src="img5.png" width="570px" ></div>
+	<div class="playback-content">
+		<img src="img6.png" width="430px">
+	</div>		
+</div>
+
+<div class="iphone-content">
+	<div class="all protection"><img class="filming" src="img7.png" width="300px"></div>
+	<div class="all display"><img  class="dynamic" src="img8.png" width="300px"></div>
+	<div class="all on-display"><img  class="accident" src="img9.png" width="250px"></div>
+	<div class="all-info filming-info">Плавна зйомка відео з рук — стабілізатор більше не потрібен.</div>
+	
+	<div class="all-info dynamic-info">Із Dynamic Island ви завжди матимете під рукою музику, спортивні новини, виклики FaceTime</div>
+
+	<div class="all-info accident-info">Функція «Виявлення аварій» викличе допомогу, коли ви не в змозі.</div>
+</div>
+<div class="third-intermediate-block" id="macBoOk">
+	<div class="third-intermediate-block-txt">MacBook Pro</div>
+</div>
+
+<div class="mac-present">
+	<div class="mac-img"><img src="img10.png" width="600px"></div>
+	<div class="mac-name">Суперсила професіоналів.</div>
+	<div class="mac-char">Творець. Молодець.<br> Надпотужний гравець.</div>
+</div>
+
+<div class="fourth-intermediate-block">
+	<div class="fourth-intermediate-block-txt">Дисплей, що перевершує очікування.</div>
+</div>
+
+<div class="mac-content">
+	<div class="all protection"><img class="acum" src="img11.png" width="300px"></div>
+	<div class="all display"><img  class="m-pro" src="img12.png" width="250px"></div>
+	<div class="all on-display"><img  class="m-max" src="img13.png" width="250px"></div>
+	<div class="all-info acum-info">Результати краще. 
+		Акумулятору легше.
+		До 21 години без підзарядки.</div>
+	
+	<div class="all-info m-pro-info">Центральний процесор до 12 ядер
+		Графічний процесор до 19 ядер
+		Об’єднана пам’ять до 32 ГБ
+		</div>
+	<div class="all-info m-max-info">Центральний процесор 12 ядер
+		Графічний процесор до 38 ядер
+		Об’єднана пам’ять до 96 ГБ
+		</div>
+</div>
+
+
+<div class="mac-content-second">
+	<div class="blower-content">
+	<img src="img14.png" width="670px" ></div>
+	<div class="drive-content">
+		<img src="img15.png" width="530px">
+	</div>		
+</div>
+
+<div class="fifth-intermediate-block" id="iPaD">
+	<div class="fifth-intermediate-block-txt">iPad Pro</div>
+</div>
+
+
+<div class="ipad-present">
+	<div class="ipad-img"><img id="Ipad" src="img16.png" width="600px" height="400px"></div>
+	
+	<div class="ipad-name">З турбопотужністю</div>
+	<div class="ipad-char">Небувала потужність. Дивовижні <br>
+		 вдосконалені дисплеї.<br>
+		  Надшвидке 
+		  бездротове з’єднання.<br>
+		   Нові можливості Apple Pencil. Нові <br>
+		   потужні функції в iPadOS 16. Все в <br>
+		    найдосконалішому вигляді.</div>
+	
+	
+</div>
+
+<div class="sixth-intermediate-block">
+	<div class="sixth-intermediate-block-txt">Продуктивність нового покоління.</div>
+</div>
+
+<div class="ipad-content">
+	<div class="all"><img class="center" src="ipad17.png" width="200px"></div>
+	<div class="all"><img  class="m2-ipad" src="img19.png" width="250px"></div>
+	<div class="all"><img  class="liqui" src="img20.png" width="250px"></div>
+	<div class="all-info">Центральний процесор до 12 ядер
+		Графічний процесор до 19 ядер
+		Об’єднана пам’ять до 32 ГБ
+		</div>
+	
+	<div class="all-info"> У M2 завдяки 8‑ядерному центральному процесору продуктивність вища до 15%
+		</div>
+	<div class="all-info">11 дюймів.Дисплей Liquid Retina.Портативна краса.
+		</div>
+</div>
+
+<div class="ipad-second-content">
+	<div class="ipadOS-img"><img id="IpadOS" src="img21.png" width="500px" height="400px"></div>
+	
+
+	<div class="ipad-second-char">iPadOS 16 дає змогу виконувати ще більше завдань по‑новому.<br>
+		 Нові мобільні додатки з продуктивністю <br>
+		  настільних програм зроблять день ще продуктивнішим.<br>
+		  Працюйте в кількох додатках одночасно, змінюйте розмір вікон <br>
+		   і накладайте їх одне на одне з функцією «Постановник».</div>
+	
+	
+</div>
+
+
+<div class="button-menu">
+	<div class="company-info">
+		Про нас: <br><br>
+		Новинки Apple та їх характеористики <br>
+		<a href="#" class="web">Офіційний сайт Apple Україна</a>
+	</div>
+	<div class="contact">
+		Контакти: <br><br>
+		+38073116374859<br>
+		mygadget@gmail.com
+	</div>
+	<div class="social">
+		Соцімережі:
+		<div class="social-icon">
+		<div class="twitter-icon"><a href="#"><img src="twitter.svg" width="36px"></a></div>
+		<div class="icon insta-icon"><a href="#"><img src="insta.svg" width="36px"></a></div>
+		<div class="icon facebook-icon"><a href="#"><img src="facebook.svg" width="36px"></a></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

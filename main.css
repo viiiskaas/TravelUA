@@ -1,0 +1,291 @@
+body{
+    margin: 0%;
+}
+.container{
+    padding: 50px;
+}
+.top-content{
+background-color: #85CDFD;
+height: 10%;
+}
+.main{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+a:hover{
+    color: #F9DD4B;
+}
+.main-menu{
+font-size: 20px;
+color: white;
+margin-left: 20%;
+margin-top: -2%;
+}
+.main-menu2{
+    display: flex;
+    list-style-type:none;
+    
+}
+
+.main-menu2 li{
+    display:inline-block;
+    padding:10px;
+}
+.top-icon{
+    margin-left: 25%;
+}
+
+.main-content{
+    margin-top: 5%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+.main-name{
+    font-size: 70px;
+}
+#travel{
+    color: #537FE7;
+}
+#ua{
+    color:#F9DD4B;
+}
+.main-info{
+    font-size: 30px;
+    color: #fff;
+margin-left: 20%;
+}
+#route-select{
+    font-size: 32px;
+    margin-left: 36%;
+}
+.selector{
+    display: flex;
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
+select{
+    background-color: #85CDFD;
+    width:200px;
+    height: 50px;
+    color: #fff;
+}
+option{
+    color: #fff;
+}
+.select2{
+    margin-left: 8%;
+    
+}
+
+.select3{
+    margin-left: 8%;
+}
+#assortment{
+    background-color: #85CDFD;
+    width:200px;
+    height: 50px; 
+    border: none;
+    margin-left: 8%;
+    color: #fff;
+}
+.tour-content{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+height: 400px;
+}
+.goverla{
+    grid-column: 1/span 1;
+    grid-row:1/span 1;
+}
+.sinevir{
+    grid-column: 1/span 1;
+    grid-row:3/span 3;  
+}
+
+.vorohta{
+    grid-column: 3/span 3;
+    grid-row:1/span 1;   
+}
+.nesamovute{
+    grid-column: 3/span 3;
+    grid-row:3/span 3;   
+}
+
+.tour-img1{
+    grid-column: 2/span 2;
+    grid-row:1/span 3;  
+    margin-top: 10%;
+}
+.tour-info{
+    background-color: #85CDFD;
+    margin-top: 15%;
+    text-align: center;
+}
+#tour-txt{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+#tour-txt2{
+    font-size: 20px;
+    color: #fff;
+}
+.goverla-info{
+    display: flex;
+   
+}
+.goverla-img-frame{
+    background-color: #537FE7;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+
+.img1{
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.txt{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: justify;
+}
+.vorohta-info{
+    display: flex;
+}
+.vorohta-img-frame{
+    background-color: #F9DD4B;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+.line{
+    margin-top: 2%;
+    background-color: black;
+    height: 2px;
+    
+}
+.sinevir-info{
+    display: flex;
+}
+.sinevir-img-frame{
+    background-color: #537FE7;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+
+.nesamovute-info{
+    display: flex;
+}
+.nesamovute-img-frame{
+    background-color: #F9DD4B;
+    width: 550px;
+height: 300px;
+margin-top: 10%;
+}
+#header-turist{
+    font-size: 40px;
+    text-align: center;
+}
+.turist-info{
+    text-align: justify;
+    font-size: 28px;}
+
+.reviews{
+    text-align: center;
+    background-color: #85CDFD;
+    color: #fff;
+}
+.reviews-content{
+    color: black;
+    margin-top: 10%;
+    display: flex;
+}
+.card{
+    
+    background-color: #fff;
+    width: 350px;
+    height: 550px;
+    border-radius: 40px;
+}
+.reviews-card2{
+    margin-left: 5%
+}
+.reviews-card3{
+    margin-left: 5%;
+    text-align: center
+}
+.icon{
+    background-color: #FEDEFF;
+    border-radius: 100%;
+    width: 100px;
+    margin-top: -15%;
+    margin-left: 35%;
+}
+.name1{
+    font-size: 32px;
+    margin-top: 20%;
+    
+}
+.name2{
+    font-size: 32px;
+    margin-top: 20%;
+   
+}
+.name3{
+    font-size: 32px;
+    margin-top: 20%;
+    
+}
+.review{
+    width: 300px;
+    font-size: 24px;
+    text-align:start;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.contact{
+    display: flex;
+}
+
+.contact-info{
+    margin-left: 15%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7%;
+}
+.form{
+    margin-left: 10%;
+    font-size: 30px;
+    text-align: center;
+}
+input{
+background-color: #85CDFD;
+border: none;
+border-radius: 15px;
+width: 400px;
+height: 40px;
+text-align: center;
+color: #fff;
+font-size: 20px;
+}
+#button1{
+    margin-top: 7% ;
+    width: 200px;
+    height: 43px;
+    border-radius: 40px;
+}
+.inp{
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
