@@ -7,7 +7,18 @@
 	<title>TravelByUA</title>
 </head>
 <body>
-
+    <div class="containerrr">
+        <input type="checkbox" id="burger">
+        <label for="burger"></label>
+        <nav>
+            <ul>
+                <li><a href="#">Тури</a></li>
+                <li><a href="#">Туристам</a></li>
+                <li><a href="#">Відгуки</a></li>
+                
+            </ul>
+        </nav>
+        </div>
     <div class="top-content">
     <div class="container">
     <div class="main">
@@ -17,17 +28,24 @@
         <div class="main-menu">
             <ul class="main-menu2">
                   <li>  <a href="#">головна</a></li>
-                  <li>  <a  class="exile" href="#tour-txt">тури</a></li>
+                  <li> <div class="exile1"> <a  class="exile1" href="#tour-txt">тури</a>
+                    <div class="overflow">
+                        <div class="car"><a href="#">Говерла</a></div>
+                        <div class="car"><a href="#">Ворохта</a></div>
+                        <div class="car"><a href="#">Несамовите</a></div>
+                        <div class="car"><a href="#">Синевир</a></div>
+                      </div></div> </li>
                   <li> <a class="exile" href="#header-turist">туристам</a></li> 
                   <li>  <a class="exile" href="#header-reviews">відгуки</a></li>
 
             </ul>
           
         </div>
+        
         <div class="top-icon">
-            <a href="#"><img src="InstagramIcon.png" width="32px" height="32px"> </a>
-            <a href="#"><img src="FacebookIcon.png" width="32px"></a>
-            <a href="#"><img src="TwitterIcon.png" width="32px"></a>
+            <a href="#"><img id="inst" src="InstagramIcon.png" width="32px" height="32px"> </a>
+            <a href="#"><img id="face" src="FacebookIcon.png" width="32px"></a>
+            <a href="#"><img id="twi" src="TwitterIcon.png" width="32px"></a>
         </div>
     </div>
     <div class="main-content">
@@ -36,7 +54,7 @@
     </div>
 </div>
 </div>
-<div class="container">
+<div class="container1">
     <div class="route-selection">
         <span id="route-select">ВИБІР МАРШРУТУ</span>
         <div class="selector">   
@@ -87,27 +105,30 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container2">
     <div class="tour-content" id="tur">
-        <div class="goverla"><img src="Говерла.png" width="350px"></div>
-        <div class="vorohta"><img src="Ворохта.png" width="350px"></div>
-        <div class="tour-img1"><img src="Ілюстрація.png" width="350px"> </div>
-        <div class="sinevir"><img src="Синевир.png" width="350px"></div>
-        <div class="nesamovute"><img src="Несамовите.png" width="350px"></div>
+        <div class="goverla"><img  src="Говерла.png" width="350px"></div>
+        <div class="vorohta"><img  src="Ворохта.png" width="350px"></div>
+        <div class="tour-img1"><img  src="Ілюстрація.png" width="350px"> </div>
+        <div class="sinevir"><img  src="Синевир.png" width="350px"></div>
+        <div class="nesamovute"><img  src="Несамовите.png" width="350px"></div>
     </div>
 </div>
 
 
 
     <div class="tour-info">
-        <div class="container">
+        <div class="container_1">
         <span id="tour-txt">ТУРИ</span> <br>
         <span id="tour-txt2">(найпопулярніші)</span>
+        
         <div class="goverla-info">
+            <div class="fff">
             <div class="goverla-img">
-                <div class="goverla-img-frame"><img class="img1" src="Говерла_2.png" width="550px"></div>
+                <div class="goverla-img-frame"><img id="goVerla" class="img1" src="Говерла_2.png" width="550px"></div>
                 
             </div>
+        </div>
             <div class="txt">Говерла - найвища гора Українських Карпат, яка знаходиться на висоті 2061 метрів над рівнем моря. Підйом на Говерлу є популярним туристичним маршрутом, який привертає тисячі відвідувачів щороку.<br><br>
 
                 Похід на Говерлу зазвичай починається з села Ворохта, звідки можна дістатися до гірськолижного курорту "Заросляк". Далі треба пройти приблизно 10 км через ліс та гірські потоки до найвищої точки України. Маршрут є складним, тому він підходить тільки для досвідчених туристів.<br><br>
@@ -119,7 +140,7 @@
        <div class="line"></div>
         <div class="vorohta-info">
             <div class="vorohta-img">
-                <div class="vorohta-img-frame"><img class="img1" src="Ворохта_2.png" width="550px"></div>
+                <div class="vorohta-img-frame"><img id="voRohta"  class="img1" src="Ворохта_2.png" width="550px"></div>
                 
             </div>
             <div class="txt">Ворохта - мальовниче село, розташоване у Карпатах на висоті 850 метрів над рівнем моря. Похід на Ворохту є чудовим варіантом для тих, хто хоче насолоджуватися красою природи та ландшафтами українських гір.<br><br>
@@ -134,7 +155,7 @@
         <div class="sinevir-info">
            
                 <div class="sinevir-img">
-                    <div class="sinevir-img-frame"><img class="img1" src="Синевир_2.png" width="550px"></div>
+                    <div class="sinevir-img-frame"><img id="siNevir" class="img1" src="Синевир_2.png" width="550px"></div>
                     
                 </div>
                 <div class="txt">Синевир - найбільше гірське озеро України, розташоване в Карпатах на висоті 989 метрів над рівнем моря. Похід на Синевир є чудовим варіантом для тих, хто хоче насолодитися красою природи та відвідати одне з найбільш неповторних місць в Україні.<br><br>
@@ -149,7 +170,7 @@
         <div class="line"></div>
         <div class="nesamovute-info">
             <div class="nesamovute-img">
-                <div class="nesamovute-img-frame"><img class="img1" src="Несамовине_2.png" width="550px"></div>
+                <div class="nesamovute-img-frame"><img class="img1" id="neSamovute" src="Несамовине_2.png" width="550px"></div>
                 
             </div>
             <div class="txt">Синевир - найбільше гірське озеро України, розташоване в Карпатах на висоті 989 метрів над рівнем моря. Похід на Синевир є чудовим варіантом для тих, хто хоче насолодитися красою природи та відвідати одне з найбільш неповторних місць в Україні.<br><br>
@@ -208,6 +229,60 @@
             </div>
         </div>
     </div>
+</div>
+<div class="all">
+    <input checked type="radio" name="respond" id="desktop">
+        <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="image">
+                        <article> <div id="slides">
+                            <div id="overflow">
+                                <div class="image">
+                                    <div class="card-slid reviews-card1-slid">
+                                       
+                                            <div class="icon-slid icon-1-slide">
+                                                <img  src="1.png" width="100px"></div>
+                                            <div class="name1-slid">Софія</div>
+                                            <div class="review-slid">  
+                                                Незабутня подорож
+                                            </div>
+                                        
+                                    </div>
+                                    </article>
+                        <article><div class="card-slid reviews-card2-slid">
+                            <div class="icon-slid icon-1-slid"><img src="2.png" width="100px" ></div>
+                            <div class="name2-slid">Анна</div>
+                            <div class="review-slid">Прекрасний краєвид </div>
+                        </div></article>
+                        <article><div class="card-slid reviews-card3-slid">
+                            <div class="icon-slid icon-1-slid"><img src="3.png" width="100px"></div>
+                            <div class="name3-slid">Олег</div>
+                            <div class="review-slid">
+                                Хороший варіант </div>
+                        </div></article>
+                      
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+             
+            </div>
+            <div id="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+               
+            </div>
+        </article>
 </div>
 <div class="container">
     <div class="contact">
