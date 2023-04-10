@@ -364,11 +364,12 @@ font-size: 20px;
         
     }
     .goverla-img-frame{
-        width: 170px;
+        width: 300px;
         height: 170px;
     }
     #goVerla{
         width: 250px;
+        margin-left: -1%;
     }
     .txt{
         font-size: 10px;
@@ -381,36 +382,39 @@ font-size: 20px;
         
     }
     .vorohta-img-frame{
-        width: 170px;
+        width: 300px;
         height: 170px;
         
     }
     #voRohta{
         width: 250px;
+        margin-left: -1%;
     }
     .sinevir-info{
         display: block;
         
     }
     .sinevir-img-frame{
-        width: 170px;
+        width: 300px;
         height: 170px;
         
     }
     #siNevir{
         width: 250px;
+        margin-left: -1%;
     }
     .nesamovute-info{
         display: block;
         
     }
     .nesamovute-img-frame{
-        width: 170px;
+        width: 300px;
         height: 170px;
         
     }
     #neSamovute{
         width: 250px; 
+        margin-left: -1%;
     }
     .turist-info{
         text-align: justify;
