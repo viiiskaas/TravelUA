@@ -6,11 +6,16 @@ body{
 }
 .container_1{
     padding: 50px;
+    
+
 }
 .container2{
-    padding: 50px;
+    
+    padding-top: 50px;
+
+    margin-left: 5%;
 }
-.containerrr{
+.containerrr{ 
     display: none;
 }
 .top-content{
@@ -19,6 +24,7 @@ height: 10%;
 }
 .main{
     display: flex;
+    justify-content: space-between;
 }
 
 a{
@@ -51,8 +57,9 @@ margin-top: -2%;
 
 .main-content{
     margin-top: 5%;
-    margin-left: 20%;
+   
     font-weight: bold;
+    text-align: center;
 }
 .main-name{
     font-size: 70px;
@@ -66,17 +73,20 @@ margin-top: -2%;
 .main-info{
     font-size: 30px;
     color: #fff;
-margin-left: 20%;
+
+}
+.route-selection{
+    text-align: center;
 }
 #route-select{
     font-size: 32px;
-    margin-left: 36%;
+   
 }
 .selector{
     display: flex;
     margin-left: 4%;
     margin-top: 3%;
-    
+    justify-content: space-between;
 }
 select{
     background-color: #85CDFD;
@@ -87,24 +97,26 @@ select{
 option{
     color: #fff;
 }
-.select2{
+/* .select2{
     margin-left: 8%;
     
 }
 
 .select3{
     margin-left: 8%;
-}
+} */
 #assortment{
     background-color: #85CDFD;
     width:200px;
     height: 50px; 
     border: none;
-    margin-left: 8%;
     color: #fff;
+    
+    margin-right: 5%;
 }
 .tour-content{
 display: grid;
+justify-content: space-between;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 height: 400px;
@@ -218,6 +230,7 @@ margin-top: 10%;
     color: black;
     margin-top: 10%;
     display: flex;
+    justify-content: space-between;
 }
 .card{
     
@@ -265,6 +278,7 @@ margin-top: 10%;
 }
 .contact{
     display: flex;
+    justify-content: center;
 }
 
 .contact-info{
